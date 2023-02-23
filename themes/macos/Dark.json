@@ -1,0 +1,12 @@
+{
+    "type": "dark",
+    "fg": "#1fff00",
+    "cursor": "> ",
+    "cursor-fg": "#c203fc",
+    "cursor-bg": "False",
+    "menu-fg": "#1fff00",
+    "menu-highlight": "#c203fc",
+    "menu-hfg": "#000000",
+    "self-color": "#4400ff",
+    "srv-color": "#fff"
+}

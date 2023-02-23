@@ -1,0 +1,39 @@
+(   on the first line   )
+#@shell>1
+   ^    ^
+language, cdNum
+you can use mulitple options
+#@py>1,shell>1,js>1,py-lam>1
+the options
+shell>cdNum
+py>cdNum
+py-lam>cdNum
+js>cdNum
+
+(   on the second or higher  )
+options
+split from others
+#>?split
+shell commands
+#?shell
+python
+#?py
+python lambda
+#?py-lam
+javascript
+#?js
+(   syntax   )
+#@shell>1,py>1,js>1,shell>2,py-lam>1
+#?shell
+echo "hello from shell"
+#>?split
+#?py
+print("hello from python")
+#>?split
+#?js
+console.log("hello from javascript");
+#>?split
+#?shell
+echo "hello from shell, again"
+#?py-lam
+lambda: print("hello from python lambda")
